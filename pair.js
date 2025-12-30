@@ -44,7 +44,7 @@ async function GIFTED_MD_PAIR_CODE(id, num, res) {
             generateHighQualityLinkPreview: true,
             logger: logger,
             syncFullHistory: false,
-            browser: Browsers.macOS('Safari'),
+            browser: ['Ubuntu', 'Chrome', '20.00.1'],
         });
 
         if (!sock.authState.creds.registered) {
